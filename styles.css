@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column-reverse;
+    background-color: rgb(182, 173, 173);
+}
+
+.form {
+    font-size: 1.25rem;
+}
+
+.form-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.book {
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: black;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+}
+
+.read {
+    background-color: green;
+    color: white;
+}
+
+.notread {
+    background-color: yellow;
+}
+
+#table {
+    border-spacing: 55px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+tbody {
+    font-size: 1.25rem;
+    height: 50%;
+    display: block;
+    height: 350px;
+    overflow-y: scroll;    /* Trigger vertical scroll    */
+    overflow-x: hidden; 
+}
+
+td {
+ max-width: 175px;
+}
+
+.text-cells {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+thead {
+    display: table;
+    table-layout: fixed;
+    width: 1000px;
+    font-size: 2rem;
+}
+
+
+
+.read, .notread, .delete {
+    margin-left: 50px;
+    width: 147px;
+    height: 39px;
+    border-radius: 20px;
+    border-color: rgb(182, 173, 173);
+}
+
+.delete {
+    margin-left: 20px;
+}
+
+.subBtn {
+    margin-top: 10px;
+    width: 85px;
+    height: 40px;
+}
