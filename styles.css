@@ -61,7 +61,7 @@ tbody {
     display: block;
     height: 350px;
     overflow-y: scroll;    /* Trigger vertical scroll    */
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 td {
